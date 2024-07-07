@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Seção Topo*/
+
+.secao-topo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secao-topo span {
+    color: #95aecc;
+}
+
+.secao-topo h1 {
+    font-weight: 400;
+}
+
+.topo-nav a {
+    text-decoration: none;
+    font-weight: 400;
+    margin: 10px;
+    color: #7d756c;
+}
+
+/*Seção Banner*/
+
+.secao-banner {
+    width: 100%;
+    height: 670px;
+    background-image: url(imagens/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-info {
+    width: 530px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+    background-color: rgb(55,140,116,0.8);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.banner-info h3 {
+    font-size: 53px;
+}
+
+.banner-info p{
+    font-size: 27.6px;
+}
+
+/*Seção Quartos*/
+
+.secao-quartos {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #7d756c;
+    font-weight: 100;
+}
+
+
+.quartos-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.quartos-info {
+    border-bottom: 2px solid #378c74;
+}
+
+.quartos-info p{
+    margin: 20px;
+    font-weight: 600;
+}
+
+.quartos-info img{
+    width: 300px;
+}
+
+/*Rota*/
+
+.secao-rota {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #7d756c;
+    
+}
+
+.secao-rota h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.secao-rota p {
+    margin-bottom: 40px;
+}
+
+/*Seção-Sobre*/
+
+.secao-sobre {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.secao-sobre-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.sobre-card {
+    display: flex;
+}
+
+.sobre-info {
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+    margin-right: 10px;
+}
+
+.sobre-card-img {
+    width: 100px;
+    height: 130px;
+}
+
+.sobre-card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Rodape*/
+
+.secao-rodape {
+    width: 100%;
+    height: 200px;
+    background-color: #378c74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.secao-rodape h3 {
+    width: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+.rodape-info {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    text-align: left;
+}
+
+.rodape-info img {
+    width: 50px;
+}
+
+
+.rodape-info a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/*Seçã Copyright*/
+
+.secao-copy {
+    
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #378c74;
+}
+
+
+.copyright {
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-top: solid 2px #0f4133;
+    padding-top: 20px;
+}
